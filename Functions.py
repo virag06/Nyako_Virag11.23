@@ -1,4 +1,4 @@
-from data import virag,ar,szin
+from data import *
 from os import system
 
 def menu():
@@ -10,11 +10,14 @@ def menu():
     print('3 - Legolcsóbb virág')
     print('4 - Legdrágább virág')
     print('5 - Csokor összeállítása')
-    return input('Kérem válasszon:...')
+    return input('Kérem válasszon: ')
 
 def viragokKiir():
     system('cls')
     print('--------VIRÁGOK---------')
+    for i in range(0,len(viragok)):
+        print(f'\t{i+1}. {viragok[i]} {szin[i]} {ar[i]} Ft ')
+        input('Tovább...')
 
 def szinekKiir():
     system('cls')
