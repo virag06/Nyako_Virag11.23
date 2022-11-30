@@ -39,6 +39,15 @@ def legolcsobb():
 def legdragabb():
     system('cls')
     print('------LEGDRÁGÁBB VIRÁG------')
+    maxPoz=0
+    for i in range(1,len(ar)):
+        if ar[i]>ar[maxPoz]:
+            maxPoz=i
+    print(f'A legdrágább virágunk ({ar[maxPoz]} Ft):')
+    for i in range(0,len(ar)):
+        if ar[i]==ar[maxPoz]:
+            print(f'\t{viragok[i]}')
+    input('Tovább...')
 
 def csokor():
     system('cls')

@@ -13,3 +13,8 @@ while choice!='0':
     if choice=='3':
         system('cls')
         legolcsobb()
+    if choice=='4':
+        system('cls')
+        legdragabb()
+    if choice=='5':
+        pass
