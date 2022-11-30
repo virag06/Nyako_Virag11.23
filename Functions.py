@@ -16,8 +16,8 @@ def viragokKiir():
     system('cls')
     print('--------VIRÁGOK---------')
     for i in range(0,len(viragok)):
-        print(f'\t{i+1}. {viragok[i]} {szin[i]} {ar[i]} Ft ')
-        input('Tovább...')
+        print(f' - {viragok[i]}: {szin[i]}, {ar[i]} Ft')
+    input('')
 
 def szinekKiir():
     system('cls')
