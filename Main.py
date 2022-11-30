@@ -8,3 +8,8 @@ while choice!='0':
     if choice=='1':
         system('cls')
         viragokKiir()
+    if choice=='2':
+        pass
+    if choice=='3':
+        system('cls')
+        legolcsobb()
