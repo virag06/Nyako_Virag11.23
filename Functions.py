@@ -22,6 +22,15 @@ def viragokKiir():
 def szinekKiir():
     system('cls')
     print('-----------SZÍNEK-----------')
+    bekertSzin=input('Kérem adjon meg egy színt: ')
+    i=0
+    while i<len(szin) and szin[i]!=bekertSzin:
+        i+=1
+    if i<len(szin):
+        print(f'- {bekertSzin} {viragok[i]}')
+    else:
+        print('Nincs ilyen színű virágunk.')
+    input('Tovább...')
 
 def legolcsobb():
     system('cls')

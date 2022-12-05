@@ -9,7 +9,8 @@ while choice!='0':
         system('cls')
         viragokKiir()
     if choice=='2':
-        pass
+        system('cls')
+        szinekKiir()
     if choice=='3':
         system('cls')
         legolcsobb()
