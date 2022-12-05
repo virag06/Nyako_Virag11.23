@@ -18,4 +18,5 @@ while choice!='0':
         system('cls')
         legdragabb()
     if choice=='5':
-        pass
+        system('cls')
+        csokor()

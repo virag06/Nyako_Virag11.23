@@ -61,3 +61,7 @@ def legdragabb():
 def csokor():
     system('cls')
     print('----CSOKOR ÖSSZEÁLLÍTÁSA----')
+    bekertVirág=input('Kérem adjon meg egy virágot: ')
+    
+    
+    input('Tovább...')
