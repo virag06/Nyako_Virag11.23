@@ -23,12 +23,12 @@ def szinekKiir():
     system('cls')
     print('-----------SZÍNEK-----------')
     bekertSzin=input('Kérem adjon meg egy színt: ')
-    i=0
-    while i<len(szin) and szin[i]!=bekertSzin:
-        i+=1
-    if i<len(szin):
-        print(f'- {bekertSzin} {viragok[i]}')
-    else:
+    db=0
+    for i in range(0, len(szin)):
+        if szin[i]==bekertSzin:
+            print(f'-{bekertSzin} {viragok[i]}')
+            db+=1
+    if db==0:
         print('Nincs ilyen színű virágunk.')
     input('Tovább...')
 
