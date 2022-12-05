@@ -61,7 +61,18 @@ def legdragabb():
 def csokor():
     system('cls')
     print('----CSOKOR ÖSSZEÁLLÍTÁSA----')
-    bekertVirág=input('Kérem adjon meg egy virágot: ')
-    
+    összeg = 0
+    bekertViragdb = int(input('Kérem adja meg, hány virágból álljon a csokor: '))
+    for i in range(0,int(bekertViragdb)):
+        #igen = False
+        bekertVirag = input("Kérem adjon meg egy virágot: ")
+        for j in range(0,len(viragok)):
+            if viragok[j] == bekertVirag:
+                összeg = összeg + int(ar[j]) 
+                #igen = True
+        #if igen == False:
+            #print("Nincs ilyen Virág")
+            #bekertViragdb +=1
+    print(f"{összeg} Ft")
     
     input('Tovább...')
