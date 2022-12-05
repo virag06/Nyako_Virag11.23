@@ -33,7 +33,7 @@ def legolcsobb():
     print(f'A legolcsóbb virágunk ({ar[minPoz]} Ft):')
     for i in range(0,len(ar)):
         if ar[i]==ar[minPoz]:
-            print(f'\t{viragok[i]}')
+            print(f'- {viragok[i]}')
     input('Tovább...')
 
 def legdragabb():
@@ -46,7 +46,7 @@ def legdragabb():
     print(f'A legdrágább virágunk ({ar[maxPoz]} Ft):')
     for i in range(0,len(ar)):
         if ar[i]==ar[maxPoz]:
-            print(f'\t{viragok[i]}')
+            print(f'- {viragok[i]}')
     input('Tovább...')
 
 def csokor():
